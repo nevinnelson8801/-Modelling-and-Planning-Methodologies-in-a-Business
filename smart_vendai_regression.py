@@ -1,12 +1,3 @@
-# ============================================================
-# Smart VendAI — Regression Modelling for Sales Forecasting
-# Author  : Nevin Nelson (Q1071615)
-# Course  : BSc. Computer Science and Digitisation (2024-2027)
-# Tool    : Google Colab / Python
-# Purpose : Predict Units Sold from Foot Traffic data using
-#           Simple Linear Regression
-# ============================================================
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
