@@ -1,0 +1,179 @@
+INTRODUCTION
+In today’s quickly changing digital economy, modelling and planning are crucial skills for creating and executing successful technology driven companies. The complexity of operational and strategic decision-making increases significantly as organisations use automation, intelligent systems and data-driven infrastructures. In this scenario, modelling becomes an essential analytical tool that helps organisations simplify and organise complex real-world systems. Before allocating resources to real-world execution, decision makers can use modelling to investigate alternate scenarios, test hypotheses, forecast system behaviour under various circumstances and identify possible risks and ineffictiveness. This minimises expenses, lowers uncertainty and promotes evidence based decision making. 
+Planning organises work, assigns resources, establishes deadlines and connects technology projects with more general business goals. Planning and modelling work together to guarantee that creative solutions are not only technically possible but also long-term sustainable, scalable and economically practical.
+Inorder to modernise and improve traditional vending activities, this report introduces Smart VendAI, a advanced vending machine business concept that combines artificial intelligence(AI), machine learning (ML) and internet of things (IoT) technologies. Traditional vending machines are often limited by outdated manual procedures, delayed supply decisions, ineffective stocking procedures and a lack of real-time monitoring. These restrictions often results in overstocking, stockouts, higher operating expenses and lower customer satisfaction. Inorder to create a responsive and adaptable vending ecosystem, Smart VendAI uses intelligent data processing, automated inventory tracking and continous sensor monitoring. Smart VendAI reduces waste and increases profitability by using machine learning models and predictive algorithms to forecast product demand, optimise stock levels, and enhance replenishments schedules. Real-time data collection also allows for active maintanence, quicker decision making and better customer satisfaction through increased system dependability and product availability. 
+The report shows how the design, assessment and validation of the SmartVendAI business concept are supported by conceptual modelling, business modelling, regression forecasting and simulation. Feedback loops, stock and flow relationships and long term behavioural trends within the system can all be clearly visualised. By showing how operational choices affect performance over time, this modelling technique improves strategic planning, enhancing overall business planning quality and allowing well informed data-driven decision making.
+
+1.LITERATURE REVIEW
+Modelling plays a fundamental role across engineering, computing, management science and operations research. Models provide simplified representations of complex systems, allowing analysis without the cost, risk or impracticality of testing in real-world scenarios (Pidd, 2009).
+For business concept development, tools such as the Business Model Canvas helps us to identify key components of a business such as customers, value propositions, resources and revenue streams highlighting risks and guiding strategic refinement (Osterwalder & Pignueur, 2010).
+Forecasting methods like regression analysis are essential for predicting future trends. Regression is effective for identifying relationships between variables such as customer footfall and vending sales and enables evidence based planning (Field,2018).
+Simulation is equally important. It enables experimentation with dynamic systems without financial risks (Banks, 2010). Insight Maker, a popular system dynamics and agent based modelling tool, supports casual loop diagrams, stock and flow modelling and long term behaviour simulation, making it ideal for inventory, supply chain and operational forecasting.
+System dynamics modelling provides information about long term patterns and feedback loops (Sterman, 2010). Using Insight Maker for Smart VendAI allows modelling of stock behaviour, demand variability and operational delays, ensuring decisions are based on system wide understanding.
+Overall, modelling and planning frameworks provide a structured foundation for evaluating and developing Intelligent Vending Machine solutions like Smart VendAI.
+
+  
+2.OVERVIEW OF THE BUSINESS IDEA
+2.1Business Concept
+Smart VendAI is a AI powered vending solution that maximises product stocking and customer satisfaction by using machine learning algorithms and Internet of Things sensors. In contrast with traditional devices, Smart VendAI is able to:
+Forecast demand patterns.
+Automate Restocking alerts.
+Real-time dashboard access to managers.
+Minimise excess inventory and stockouts.
+Customise product offering for each location.
+Smart VendAI uses both software( AI forecasting, cloud dashboards) and  hardware(sensors, processors, connectivity modules) to increase operational insight, profitability and efficiency.
+
+2.2Problems Solved
+Traditional vending machines suffer from:
+Unpredictable stock levels due to manual checks.
+Limited data insight into consumer behaviour.
+Non-customised product selection.
+Subjective location decision lacking data.
+High operational labour costs.
+Smart VendAI solves these problems using automated monitoring, predictive analysis and location specific recommendations, enabling better cost control and improved customer experience.
+
+2.3Business Value Offered
+Smart VendAI offers:
+Accurate demand forecast.
+Fewer stockouts.
+Reduced labour costs.
+Increased revenue through data-driven product placement.
+Enhanced customer satisfaction.
+Competitive technological advantage.
+These benefits make Smart VendAI  attractive to gyms, offices, transport hubs, universities, hospitals and commercial property owners.
+
+
+3.CONCEPTUAL MODELLING
+A conceptual model outlines how SmartVendAI’s components interact.
+Required Entities:
+Customer
+Smart Vending Machine
+AI Prediction Module
+Inventory Database
+Supplier
+Manager Dashboard
+
+Process Flow:
+1.Customer purchases Product.
+2.Machine updates stock.
+3.Sales data sent to database.
+4.AI gives demand predictions.
+5.If stock is less than threshold, then restock alert is sent.
+6.Supplier receives instruction.
+7.Manager views everything via dashboard.
+
+
+
+4. BUSINESS MODEL CANVAS
+AREA	EXPANDED SUMMARY
+Value Proposition	Lates AI powered vending machine that offers predictive stocking, increased efficiency, real-time analysis and improved customer satisfaction.
+Customer Segments	High traffic locations like airports, railway stations, gyms, universities, corporate offices, hospitals and retail centres.
+Channels	Direct sales, lease agreement, partnership with prperty owners.
+Customer Relationships	Automated dashboard reports, always available support lines, maintanence contracts and personalised alaysis information.
+Revenue Sttreams	Machine sales, leasing fees, subscriptions and premium features.
+Key Resources	AI models, IoT sensors, database, cloud bases analysis, equipment manufacturing and skilled developers.
+Key Activities	Machine monitoring, software update,predictive modelling, product restocking, qualitty assurance.
+Key Partners	Suppliers, hardware manufacturers, cloud providers, logistics companies and retail product distributors.
+Cost Structure	Manufacturing, software development, cloud hosting, staff salaries, marketing, machine maintanence and inventory costs.
+
+
+This model shows that Smart VendAI is supported by a well defined and sustainable business structure.
+
+5.SYSTEM DYNAMICS MODEL
+System dynamics focuses on interactions, delays and long term characteristic patterns.
+5.1Casual Loop Diagram
+      Sales Improvement Loop
+
+Figure 2
+     Inventory Regulation Loop
+
+Figure 3
+System dynamics make it possible to examine long term outcomes, seasonal demand changes and potential bottlenecks.
+
+6.METHODOLOGY
+6.1Approach
+This project uses:
+Industry research
+Conceptual modelling
+Regression forecasting
+Simulation using Insight Maker
+Examination of findings using theoretical frameworks
+
+6.2Data Used
+A 12 month dataset was used, covering:
+Foot traffic
+Units sold
+Seasonal trends
+Product categories
+
+6.3Analytical Tools
+Excel
+Python
+Visualisation tools
+Insight Maker
+
+7.REGRESSION MODELLING FOR FORECASTING
+Smart VendAI system’s connection between foot traffic and units sold are found using regression analysis. During a 12 month period, a dataset was gathered from vending machine sales record and publicly accessible foot traffic statistics for busy commercial locations.
+In google colab, a basic linear regression model with foot traffic as the independent variable and units sold as the dependent variable was implemented using python.
+
+Figure 4
+
+
+OUTPUT:
+
+Figure 5
+
+Figure 6
+
+High customer flow shows better vending machine performance. The coefficient of 0.92, shows a strong positive relationship between foot traffic and sales. This provides better demand forecasting and location preferences based on data. Thus, regression analysis helps business planning by predicting sales more accurately, improving inventory planning and reducing the risk of running out of stock.
+
+8.SIMULATION FOR INVENTORY PLANNING
+8.1Scenario Setup in Insight Maker
+Insight Maker was used to simulate Smart Vend AI’s stock behaviour using a stock and flow model.
+Scenario variables:
+Machine capacity - 300 items
+Avg. Daily demand - 40 items
+Supplier lead time - 3 days
+Reorder point - 120 items
+
+Figure 7
+
+8.2Simulation Results
+Initial inventory of 300 units declines steadily reaching almost -2000units by the end representing a net decrease.
+Inventory falls below zero earlier in the simulation, which indicates 100% depletion of available stocks.
+Daily demand increases from 10 to over 25 units showing an increase of more than 150% over the simulation horizon.
+The reorder point and restock rate increases with demand.
+Replenishments remains are insufficient resulting in a structurally unstable inventory system.
+Current replenishment parameters fail to keep up with the growing demand, suggesting substantial upward adjustments for inventory stability.
+
+Figure 8
+
+https://drive.google.com/file/d/1w4vB7EdHlw_boaMn8x_XJ8ghj2vlni3m/view?usp=sharing
+
+
+
+
+
+9.RESULTS
+The regression analysis shows a strong positive relationship between customer foot traffic and vending machine sales. Using python we implemented simple linear regression model and we got the following equation:
+UnitsSold = 3.73 + 0.93(FootTraffic)
+Thus, we understand that:
+Conceptual modelling clarified data flow and system structure.
+Business Model Canvas validated viability.
+Regression confirmed importance of choosing high traffic location.
+Insight Maker optimised inventory strategy and reduced stockout risks.
+Together, these tools shows Smart VendAI’s practicality and effectiveness.
+
+
+CONCLUSION
+This business plan shows how modelling and planning techniques can be applied to design, evaluate and validate a technology driven business solution. Through the development of the Smart VendAI concept, the report illustrates the value of combining artificial intelligence, machine learning and internet of thing (IoT) technologies with structured analytical methods to compare it with real world operational challenges in vending industry. Traditional vending systems management, all of which reduce profitability and customer satisfaction. Smart VendAI directly responds to these limitations through automation, real time data collection and intelligent decision making. The use of conceptual modelling provides a clear understanding of how the system components interact, highlighting the flow of data, decision points and stakeholder involvement across the Smart VendAI ecosystem. This foundational model ensured that the business concept was logically structured before moving on to more planning process by clearly defining value propositions, revenue streams, key resources and cost structure which confirms the commercial feasibility and sustainability of the proposed business.
+Regression modelling played a critical role in forecastting demand and supporting evidence based planning. By establishing a strong positive relationship between foot traffic and sales. This analysis strengthened the importance of strategic location selection and informed revenue and inventory planning decisions. This approach reduced uncertainty and improved confidence in forecasting future performance. Also, simulation using Insight Maker enables the testing of inventory strategies under different demand and real time scenario without financial risk. The stock and flow model showed us optimal reorder points, reduced stockout probability and balanced inventory levels, showing how system dynamics modelling supports long term operational stability.
+Overall, the integration of modelling, forecasting and simulation provided a complete structure for analysing both technical and business viability of Smart VendAI. The findings confirms that Smart VendAI is a practical, scalable and data-driven solution capable of delivering improved efficiency, reduced costs and enhanced customer satisfaction.
+
+
+REFERENCES
+1.Banks, J. (2013) Pageplace. Available at: https://api.pageplace.de/preview/DT0400.9781292037264_A24620807/preview-9781292037264_A24620807.pdf (Accessed: 15 December 2025). 
+2. Field, A. (2018) Discovering statistics using IBM SPSS statistics, Google Books. Available at: https://books.google.de/books?hl=en&lr=&id=83L2EAAAQBAJ&oi=fnd&pg=PT8&dq=Field%2C%2BA.%2B%282018%29%2BDiscovering%2BStatistics%2BUsing%2BIBM%2BSPSS%2BStatistics.%2B5th%2Bed.%2BSage.&ots=UbOVGkFGAJ&sig=sIlj0CfHt_t8G9gODGnxCNOvsCo#v=onepage&q&f=false (Accessed: 15 December 2025). 
+3.Osterwalder, A. and Pigneur, Y. (2010) Business model generation, Google Books. Available at: https://books.google.de/books?hl=en&lr=&id=UzuTAwAAQBAJ&oi=fnd&pg=PP1&dq=Osterwalder%2C%2BA.%2Band%2BPigneur%2C%2BY.%2B%282010%29%2BBusiness%2BModel%2BGeneration.%2BWiley.&ots=yZHRFbH5Xz&sig=wXqMLuTzRxYCpmV5s7kPyKwFVf0#v=onepage&q=Osterwalder%2C%20A.%20and%20Pigneur%2C%20Y.%20(2010)%20Business%20Model%20Generation.%20Wiley.&f=false (Accessed: 15 December 2025). 
+4.Pidd, M. (2009) Tools for thinking, Scribd. Available at: https://www.scribd.com/document/340977070/Tools-for-Thinking (Accessed: 15 December 2025). 
+5.Sterman, J.D. (2002) (PDF) Business Dynamics, System Thinking and modeling for a Complex World. Available at: https://www.researchgate.net/publication/44827001_Business_Dynamics_System_Thinking_and_Modeling_for_a_Complex_World (Accessed: 15 December 2025). 
